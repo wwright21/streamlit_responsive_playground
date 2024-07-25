@@ -13,4 +13,4 @@ st.set_page_config(
 # get the screen height to set the heights of the map and line charts
 screen_width = streamlit_js_eval(js_expressions='screen.width', key = 'SCR')
 
-st.write(screen_width)
+st.write(f'This screen is {screen_width} pixels wide!')
